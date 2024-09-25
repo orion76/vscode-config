@@ -1,0 +1,20 @@
+QWidget, QTabWidget::pane, QTabWidget::tab-bar {
+    background-color: rgb(150, 150, 150);
+}
+QTabBar::tab {
+    min-width: 120px;
+    color: rgb(200, 200, 200);
+    background-color: rgb(65, 65, 65);
+    font-size: 14px;
+    height: 25px;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid rgb(150, 150, 150);
+}
+QTabBar::tab:selected {
+    background: rgb( 0,0,40);
+    color: #FFF;
+}
+QTabBar::tab:hover {
+    background: rgb( 30,30,60);
+    
+}
